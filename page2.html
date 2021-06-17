@@ -260,46 +260,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Second page
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="page2.html" class="md-nav__link md-nav__link--active">
         Second page
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installing-mkdocs" class="md-nav__link">
-    Installing Mkdocs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-mkdocs" class="md-nav__link">
-    Using Mkdocs
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -319,15 +282,9 @@
                 
                 
                 <h1 id="readme">README</h1>
-<h4 id="installing-mkdocs">Installing Mkdocs</h4>
-<p>We use <a href="https://www.mkdocs.org/">Mkdocs</a> for documentation, which can be easily installed via Python's <code>pip</code>. On a typical Ubuntu system, do this:</p>
-<pre><code class="language-bash">$ python3 -m pip install mkdocs mkdocs-material mkdocs-extensions mkdocs-mermaid2-plugin pymdown-extensions mkdocs-bibtex
-</code></pre>
-<p><del>Note: unfortunately the original <a href="https://github.com/shyamd/mkdocs-bibtex">mkdocs-bibtex</a> extension has <a href="https://github.com/shyamd/mkdocs-bibtex/issues/3">an issue with LaTeX math rendering via pymdown.arithmatex</a>, so for the time being we install my patched version directly from GitHub.</del></p>
-<p>The mkdocs-bibtex and arithmatex issue has been fixed with a workaround upstream, so as long as <code>mkdocs-bibtex&gt;=0.4.0</code> then it should be fine. In case you have installed a version of mkdocs-bibtex from my GitHub, you can install the new upstream version with <code>$ python3 -m pip install "mkdocs-bibtex&gt;=0.4"</code> (note that the quotation marks are important).</p>
-<h4 id="using-mkdocs">Using Mkdocs</h4>
-<p>You should modify the <code>.md</code> files in the <code>docs</code> directory. To preview the current modifications, do <code>mkdocs serve</code> in terminal with the directory containing the <code>mkdocs.yml</code> file as the current working directory, and then open up <code>127.0.0.1:8000</code> in a browser. </p>
-<p>When you're done modifying the <code>docs</code>, let's build a static copy of the pages by running the <code>build.sh</code> script. You can then open up <code>site/index.html</code> in your favorite browser.</p>
+<table>
+<tbody><tr><td><a href="https://avibase.bsc-eoc.org/checklist.jsp?region=CAbc&amp;list=howardmoore">World Bird Database</a></td><td>Birds Canada &amp; Bird Life International</td></tr><tr><td><a href="http://www.feederwatch.org/">Project Feeder Watch</a></td><td>Birds Canada &amp; The Cornell Lab of Ornithology</td></tr><tr><td><a href="https://merlin.allaboutbirds.org/">Merlin Bird ID app</a></td><td>The Cornell Lab </td></tr><tr><td><a href="https://ebird.org/about">eBird app</a></td><td>The Cornell Lab (Keep track of your bird sightings)</td></tr><tr><td><a href="http://www.birdwatchinghq.com/">Bird Watching HQ</a></td><td>Links to various bird and nature related resources</td></tr><tr><td><a href="https://vancouver.wbu.com/nature-books">Wild Birds Unlimited</a></td><td>Book recommendations </td></tr><tr><td><a href="https://www.birdscanada.org/you-can-help/citizen-science/">Birds Canada</a></td><td>Share your sightings</td></tr><tr><td><a href="https://bcbirdtrail.ca/trails/">The BC Bird Trail</a></td><td>Info on birding in B.C. </td></tr><tr><td><a href="https://www.birdatlas.bc.ca/">BC Breeding Bird Atlas</a></td><td>More details about specific species</td></tr></tbody>
+</table>
                 
               
               
